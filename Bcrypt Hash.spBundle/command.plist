@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>category</key>
+	<string>Hash</string>
+	<key>command</key>
+	<string>#!/usr/bin/php
+		<?php
+		    echo password_hash(gets, PASSWORD_BCRYPT);
+		?>
+	</string>
+	<key>input</key>
+	<string>selectedtext</string>
+	<key>input_fallback</key>
+	<string>entirecontent</string>
+	<key>keyEquivalent</key>
+	<string></string>
+	<key>name</key>
+	<string>Bcrypt</string>
+	<key>output</key>
+	<string>replaceselection</string>
+	<key>scope</key>
+	<string>inputfield</string>
+	<key>uuid</key>
+	<string>37A7Ad4C-AB7C-4CEC-9451-FA551C16400F</string>
+</dict>
+</plist>
