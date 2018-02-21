@@ -2,6 +2,7 @@
 
 ## Pre-requisites
 - PHP 5.4+
+- Have the PHP binary in /usr/bin/php (default setup for MacOS)
 
 ## Installation
 
